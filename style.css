@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/* Header */
+
+header{
+    background-image:url("./img/Group.png");
+    height: 550px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+header nav{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+header nav a{
+    color:lightgrey;
+    font-family: "Source Sans Pro", sans-serif;
+    text-decoration:none;
+    text-transform: uppercase;
+    float:left;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+header ul{
+    display:inline;
+    float:right;
+}
+
+header ul li{
+    list-style:none;
+    display:inline;
+    margin-left:20px;
+}
+
+.selected{
+    color: #D09144;
+}
+
+#reservation{
+    border: 1px solid #D09144;
+}
+
+#title{
+    font-family: "Source Sans Pro", sans-serif;
+    position:absolute;
+    padding-top:175px;
+    text-align:center;
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+header h2{
+    font-family: "Pinyon Script", sans-serif;
+    font-weight:lighter;
+    text-transform:capitalize;
+    color: #D09144;
+    font-size: 55px;
+}
+
+header h1{
+    font-size: 70px;
+    letter-spacing:11.6px;
+    line-height:88px;
+
+    color:white;
+}
+
+header h3{
+    font-weight:lighter;
+    font-size: 26px;
+    letter-spacing:3px;
+    color:white;
+}
