@@ -16,6 +16,8 @@ header nav{
     width:90%;
     margin-left:5%;
     margin-right:5%;
+    z-index:1;
+    position:relative;
 }
 
 header nav a{
@@ -56,6 +58,7 @@ header ul li{
     width:60%;
     margin-left:20%;
     margin-right:20%;
+    z-index:2;
 }
 
 header h2{
@@ -80,3 +83,6 @@ header h3{
     letter-spacing:3px;
     color:white;
 }
+
+/* Header end */
+
